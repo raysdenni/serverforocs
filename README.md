@@ -14,7 +14,7 @@
 
 ### Fitur-fitur Script
 Berikut adalah fitur-fitur script ini :
-OpenSSH, port : 22, 444
+*OpenSSH, port : 22, 444
 Dropbear, port : 80, 143
 SSL, port : 443
 Squid3, port : 8000, 8080 (limit to IP VPS)
