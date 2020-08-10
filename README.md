@@ -14,23 +14,23 @@
 
 ### Fitur-fitur Script
 Berikut adalah fitur-fitur script ini :
-*OpenSSH, port : 22, 444
-Dropbear, port : 80, 143
-SSL, port : 443
-Squid3, port : 8000, 8080 (limit to IP VPS)
-Badvpn : badvpn-udpgw port 7200
-Webmin : http://IPVPS:10000/
-OpenVPN : TCP 1194 dan UDP 25000
-Script menu : menampilkan daftar perintah yang tersedia
-Script usernew : membuat akun SSH dan OpenVPN
-Script trial : membuat akun trial SSH dan OpenVPN
-Script hapus : menghapus akun SSH dan OpenVPN
-Script cek : cek user login
-Script member : cek daftar member SSH dan OpenVPN
-Script speedtest : speedtest VPS
-Script info : menampilkan informasi sistem
-Script about : informasi tentang script auto install
-VPS auto reboot tiap jam 12 malam
+* OpenSSH, port : 22, 444
+* Dropbear, port : 80, 143
+* SSL, port : 443
+* Squid3, port : 8000, 8080 (limit to IP VPS)
+* Badvpn : badvpn-udpgw port 7200
+* Webmin : http://IPVPS:10000/
+* OpenVPN : TCP 1194 dan UDP 25000
+* Script menu : menampilkan daftar perintah yang tersedia
+* Script usernew : membuat akun SSH dan OpenVPN
+* Script trial : membuat akun trial SSH dan OpenVPN
+* Script hapus : menghapus akun SSH dan OpenVPN
+* Script cek : cek user login
+* Script member : cek daftar member SSH dan OpenVPN
+* Script speedtest : speedtest VPS
+* Script info : menampilkan informasi sistem
+* Script about : informasi tentang script auto install
+* VPS auto reboot tiap jam 12 malam
 
 
 ### Syarat
