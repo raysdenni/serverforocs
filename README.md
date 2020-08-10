@@ -53,3 +53,8 @@ Setelah proses instalasi script selesai, jangan lupa menjalankan perintah beriku
 reboot
 Setelah menjalankan perintah reboot, maka koneksi SSH ke VPS akan otomatis terputus.
 Tunggu sekitar 1-3 menit atau lebih, kemudian lakukan koneksi SSH lagi ke VPS, menggunakan Putty/JuiceSSH, maka VPS sudah siap digunakan untuk membuat akun SSH dan OpenVPN, ditandai dengan munculnya tampilan selamat datang.
+
+### Disable or Change Time for automatic reboot VPS
+1. run `nano /etc/crontab`
+2. Edit for bottom script of automatic reboot times
+3. Save it
