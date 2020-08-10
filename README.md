@@ -41,8 +41,7 @@ Untuk mengeksekusi script ini berikut adalah langkah-langkah yang diperlukan :
 1. Buka aplikasi Putty (Windows) atau JuiceSSH (Android)
 2. Lakukan koneksi SSH ke VPS dengan user root
 3. Download script dengan perintah
-`wget http://evira.us/deb10.sh`
-
+`wget https://github.com/raysdenni/serverforocs/raw/master/deb10.sh`
 4. Ubah script menjadi executable dengan perintah
 `chmod +x deb10.sh`
 5. Eksekusi script dengan perintah
