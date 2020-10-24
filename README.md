@@ -10,6 +10,31 @@
 `./server.sh`
 4. Done
 
+## OCS Panel by BonScript
+### OceanVPN OCS Panel For Debian 9 or Debian 10 Description
+- OCS Panel Source Code by Hostingtemurah
+- Panel base template by M4rshall
+- Base template fix and bash installer implementation by Bon-chan
+### Recommendations Spesification for your VPS:
+* Your VPS/Instance must be freshly/newly Deployed
+* Your VPS/Instance must have root access or superuser permission(run sudo su - to access root)
+* Your VPS/Instance must be accessible through TCP Port 80
+* Minimum VPS/Instance Specification:512MB RAM, 1vCPU or Shared 1vCPU
+### For installation:
+1. just run this script as super user 
+`rm -f DebianOCS* && wget -q 'https://raw.githubusercontent.com/raysdenni/BonvScripts/master/DebianOCS-Panel' && chmod +x DebianOCS-Panel && ./DebianOCS-Panel`
+
+Note sa mga Gcloud/AWS/Cloudsigma/Azure/Oraclecloud Users(or Any VPS/Instance na under admin/sudo account:
+`sudo su -` first bago mag run ng script
+### Some info about this script
+1. ocs panel template: Bootstrap 4 Color Admin + Material Bootstrap 4(FatFree PHP Framework)
+2. root directory ng panel: /home/panel/html
+3. nginx config ng panel: /etc/nginx/conf.d/bonveio-panel.conf
+4. nginx/mariadb version: default APT Stable package version for Debian
+5. php version: 5.6
+6. installed php modules: common,fpm,cli,mcrypt,curl,mysql,ssh2,json,mbstring and xml
+
+
 ## Installation SSH and VPN on debian 10 (buster)
 
 ### Fitur-fitur Script
